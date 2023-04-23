@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #18181b;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#__next {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth !important;
+}
